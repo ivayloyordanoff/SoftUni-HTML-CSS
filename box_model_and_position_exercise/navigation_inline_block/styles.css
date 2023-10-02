@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header * {
+    display: inline-block;
+}
+
+nav {
+    margin-left: 50px;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #7D977A;
+    margin-left: 25px;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+body {
+    margin: 60px;
+}
+
+main h1 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 20px 0;
+}
