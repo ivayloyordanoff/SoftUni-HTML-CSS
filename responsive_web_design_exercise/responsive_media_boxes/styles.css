@@ -1,0 +1,59 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    position: relative;
+    float: right;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3em;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.2);
+    margin: 1em;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.media {
+    overflow: hidden;
+}
+
+.card .content {
+    padding: 1em 2em;
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+}

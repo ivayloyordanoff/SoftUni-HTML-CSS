@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+
+    p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page {
+        padding: 0 2em;
+    }
+
+    blockquote {
+        float: none;
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    .align-right {
+        margin: 0;
+    }
+}
+
+@media (min-width: 501px) {
+    html {
+        font-size: 14px;
+    }
+
+    .page {
+        padding: 0 2em;
+    }
+}
+
+@media (min-width: 601px) {
+    html {
+        font-size: 16px;
+    }
+
+    .page {
+        padding: 0 2em;
+    }
+}
+
+@media (min-width: 801px) {
+    html {
+        font-size: 18px;
+    }
+
+    .page {
+        padding: 0 2em;
+    }
+}
+
+@media (min-width: 1301px) {
+    html {
+        font-size: 21px;
+    }
+
+    .page {
+        padding: 0 2em;
+    }
+}
+
+@media (min-width: 1801px) {
+    html {
+        font-size: 23px;
+    }
+
+    .page {
+        padding: 0 2em;
+    }
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    padding-bottom: 0.5em;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    border: 5px solid black;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+li {
+    margin-left: 2em;
+    list-style: square;
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70em;
+    margin: 4em auto;
+    gap: 4em;
+}
+
+.page>header {
+    border-bottom: 3px solid black;
+    flex: 1 1 100%;
+    padding-bottom: 2em;
+}
+
+.page>main {
+    flex: 1 1 65%;
+}
+
+.page>aside {
+    flex: 1 1 25%;
+}
+
+.align-right {
+    display: block;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: grey;
+    border-left: 3px solid lightgrey;
+    padding-left: 20px;
+    float: right;
+    margin: 0;
+    margin-left: 20px;
+    max-width: 40%;
+}
+
+.author {
+    float: right;
+}
